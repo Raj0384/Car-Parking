@@ -27,7 +27,7 @@ header {
 
 header h1 {
     margin: 0;
-    margin-left: -1280px;
+    margin-left: -1160px;
 }
 }
 
@@ -131,7 +131,7 @@ nav ul li a {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 1px;
     text-align: center;
 }
     </style>
