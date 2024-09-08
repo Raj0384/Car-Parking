@@ -24,7 +24,7 @@ header {
 
 h1 {
     margin: 0;
-    margin-left: -1280px;
+    margin-left: -1160px
     font-size: 24px;
 }
 

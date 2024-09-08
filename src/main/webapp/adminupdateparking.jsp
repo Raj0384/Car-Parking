@@ -23,6 +23,7 @@ header {
 
 h1 {
     margin: 0;
+    margin-left: -1160px
     font-size: 24px;
 }
 
@@ -92,7 +93,7 @@ footer {
     align-items: center;
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 1px;
     text-align: center;
 }
 

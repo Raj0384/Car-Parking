@@ -23,7 +23,7 @@ header {
 
 header h1 {
 	margin: 0;
-	margin-left: -1280px;
+	margin-left: -1160px
 }
 
 .registration-section {
@@ -97,7 +97,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
 footer {
 	background-color: #333;
 	color: #fff;
-	padding: 10px;
+	padding: 1px;
 	text-align: center;
 }
 </style>

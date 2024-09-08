@@ -27,7 +27,7 @@ header {
 
 h1 {
     margin: 0;
-    margin-left: -1280px;
+    margin-left: -1160px
     font-size: 24px;
 }
 
@@ -118,7 +118,7 @@ px
 footer {
     background-color: #333;
     color: #fff;
-    padding: 14px;
+    padding: 1px;
     text-align: center;
 }   
     </style>

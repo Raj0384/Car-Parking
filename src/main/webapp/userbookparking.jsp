@@ -29,7 +29,7 @@ header {
 
 h1 {
 	margin: 0;
-	margin-left: -1280px;
+	margin-left: -1160px
 }
 
 .booking-section {
@@ -83,7 +83,7 @@ footer {
 	background-color: #333;
 	color: #fff;
 	text-align: center;
-	padding: 1rem;
+	padding: 1px;
 }
 </style>
 </head>
