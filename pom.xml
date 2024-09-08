@@ -87,9 +87,9 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.0</version>
 					<configuration>
-                    <source>21</source>
-                    <target>21</target>
-                </configuration>
+						<source>21</source>
+						<target>21</target>
+					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
@@ -107,6 +107,32 @@
 					<artifactId>maven-deploy-plugin</artifactId>
 					<version>2.8.2</version>
 				</plugin>
+				<plugin>
+					<groupId>com.spotify</groupId>
+					<artifactId>dockerfile-maven-plugin</artifactId>
+					<version>1.4.13</version> <!-- Check for the latest version -->
+					<executions>
+						<execution>
+							<id>build-image</id>
+							<phase>package</phase> <!-- Phase of the Maven build
+							lifecycle -->
+							<goals>
+								<goal>build</goal>
+								<goal>push</goal>
+							</goals>
+							<configuration>
+								<repository>yubraj015/Car-Parking-Reservation-System</repository> <!--
+								Docker image name -->
+								<tag>0.0.1-SNAPSHOT</tag> <!-- Tag for the
+								Docker image -->
+								<buildArgs>
+									<JAR_FILE>
+										target/Car-Parking-Reservation.jar</JAR_FILE>
+								</buildArgs>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>	
 			</plugins>
 		</pluginManagement>
 	</build>
